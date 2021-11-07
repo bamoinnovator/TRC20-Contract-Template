@@ -17,6 +17,6 @@ contract Token is ERC20, ERC20Detailed {
      * @dev Constructor that gives msg.sender all of existing tokens.
      */
     constructor () public ERC20Detailed("PardisInnovationNetwork", "PINN", 5) {
-        _mint(msg.sender, 1500000000000 * (10 ** uint256(decimals())));
+        _mint(msg.sender, 9000000000 * (10 ** uint256(decimals())));
     }
 }
